@@ -1,0 +1,196 @@
+{
+    "status": 1,
+    "restaurants": [
+        {
+            "id": "9260ccb9-c212-43a1-b0d3-b84bab6196ed",
+            "title": "Привет Мир",
+            "phone_numbers": "000-000-000-00",
+            "website": "http://jowi.club",
+            "work_time": null,
+            "restaurant_type": "Bar",
+            "live_music": true,
+            "wi_fi_zone": true,
+            "smoking_zone": true,
+            "non_smoking_zone": true,
+            "veggie_dishes": true,
+            "open_halls": true,
+            "room_for_children": true,
+            "currency_of_payment": "UZS",
+            "payment_by_card": true,
+            "average_amount_bill": 40000,
+            "address": "ул. Абдуллы Каххара, Ташкент, Дом № 35",
+            "facebook_page": null,
+            "twitter_page": null,
+            "description": null,
+            "longitude": 69.27178,
+            "latitude": 41.2998,
+            "country": "Uzbekistan",
+            "city": "Tashkent",
+            "online_order": true,
+            "online_reserve": true,
+            "delivery_price": 0,
+            "delivery_time": "00:00:00",
+            "work_timetable": [
+                {
+                    "day_code": 1,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 1,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 1,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 2,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 2,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 2,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 3,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 3,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 3,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 4,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 4,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 4,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 5,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 5,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 5,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 6,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                },
+                {
+                    "day_code": 6,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 6,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 7,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 2
+                },
+                {
+                    "day_code": 7,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 1
+                },
+                {
+                    "day_code": 7,
+                    "open_time": "00:00",
+                    "close_time": "23:59",
+                    "day_off": false,
+                    "timetable_code": 0
+                }
+            ],
+            "images": [
+                {
+                    "url": "https://s3.amazonaws.com/cdn.jowi.club/mobile_menu/development/restaurant-description/restaurant_description_pictures/88782930-2baf-43b1-bb22-fb16cd8557e7/large.png?1450165135",
+                    "description": null,
+                    "order": 0
+                },
+                {
+                    "url": "https://s3.amazonaws.com/cdn.jowi.club/mobile_menu/development/restaurant-description/restaurant_description_pictures/58128ca5-32ca-4103-8f4f-bc39488fe89d/large.jpg?1450172744",
+                    "description": null,
+                    "order": 1
+                }
+            ]
+        }
+    ]
+}
