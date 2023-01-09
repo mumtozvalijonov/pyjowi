@@ -1,1 +1,1 @@
-exclude_dirs: ['./venv']
+exclude_dirs: ['./venv', './local']
