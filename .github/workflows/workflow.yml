@@ -1,0 +1,34 @@
+on: [push]
+
+jobs:
+  flake8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Run flake8
+        run: |
+          pip install flake8
+          flake8 .
+  bandit:
+    needs: flake8
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Run bandit
+        run: |
+          pip install bandit
+          bandit -c .bandit.yml -r .
+  pytest:
+    needs: bandit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Run pytest
+        run: |
+          pytest
