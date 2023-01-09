@@ -1,9 +1,9 @@
 from typing import Optional, List
 
-from ._base import JowiBaseModel
+from ._base import JowiResponseModel
 
 
-class Table(JowiBaseModel):
+class Table(JowiResponseModel):
     id: str
     hall_id: str
     is_time_discount: bool
@@ -41,7 +41,7 @@ class Table(JowiBaseModel):
         return tables
 
 
-class Hall(JowiBaseModel):
+class Hall(JowiResponseModel):
     id: str
     title: str
     restaurant_id: Optional[str]

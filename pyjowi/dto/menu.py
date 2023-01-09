@@ -2,10 +2,10 @@ from typing import List, Optional
 
 from pydantic import HttpUrl
 
-from ._base import JowiBaseModel
+from ._base import JowiResponseModel
 
 
-class MenuCategoryCourse(JowiBaseModel):
+class MenuCategoryCourse(JowiResponseModel):
     id: str
     title: str
     price: float
@@ -23,7 +23,7 @@ class MenuCategoryCourse(JowiBaseModel):
         return cls(is_online_order=is_online_order, **response)
 
 
-class MenuCategory(JowiBaseModel):
+class MenuCategory(JowiResponseModel):
     title: str
     courses: List[MenuCategoryCourse]
 
@@ -34,7 +34,7 @@ class MenuCategory(JowiBaseModel):
         return cls(title=response['title'], courses=courses)
 
 
-class Menu(JowiBaseModel):
+class Menu(JowiResponseModel):
     categories: List[MenuCategory]
 
     @classmethod

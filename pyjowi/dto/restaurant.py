@@ -2,17 +2,17 @@ from typing import Optional, List
 
 from pydantic import HttpUrl
 
-from ._base import JowiBaseModel
+from ._base import JowiResponseModel
 
 
-class WorkingHours(JowiBaseModel):
+class WorkingHours(JowiResponseModel):
     day: str
     start: str
     end: str
     is_day_off: bool
 
 
-class Restaurant(JowiBaseModel):
+class Restaurant(JowiResponseModel):
     id: str
     title: str
     phone_numbers: List[str]
